@@ -1,0 +1,16 @@
+h1{
+	color: rgba(100,50,200,1);
+}
+h4{
+	background: pink;
+}
+body{
+	background: rgba(10,10,200,0.3);
+	background-repeat: no-repeat;
+}
+.completed{
+	text-decoration: line-through;
+}
+#selected{
+	text-decoration: underline;
+}

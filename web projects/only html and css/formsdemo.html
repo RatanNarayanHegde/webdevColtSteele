@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First form</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="firstName">First Name:</label>
+		<input id="firstName" type="text" name="firstName" placeholder="Ratan" required>
+		<label for="lastName">Last Name:</label>
+		<input id="lastName" type="text" name="lastName" placeholder="Hegde" required>
+		<p>
+			<label for="Male">Male</label>
+			<input id="Male" type="radio" name="gender" value="Male">
+			<label for="Female">Female</label>
+			<input id="Female" type="radio" name="gender" value="Female">
+	    </p>
+		<p>
+			<label for="Email">Email :</label>
+			<input id="Email" type="email" name="email" placeholder="your email" required>
+			<label for="password">Password :</label>
+			<input id="password" type="password" name="Password" required minlength="8" maxlength="16">
+	    </p>
+	    <p>
+	    	Birthday :
+	    	<select>
+	    		<option value="" disabled selected hidden>Month</option>
+	    		<option>july</option>
+	    		<option>Jan</option>
+	    	</select>
+	    	<select>
+	    		<option>1</option>
+	    		<option>2</option>
+	    		<option>7</option>
+	    		<option>8</option>
+	    	</select>
+	    </p>
+	    <p>
+	    	<label for="checkbox">I agree to the terms and conditions</label>
+	    	<input id="checkbox" type="checkbox" name="checkbox">
+	    </p>
+	    <button>Submit</button>
+
+
+
+		
+
+	</form>
+
+</body>
+</html>
